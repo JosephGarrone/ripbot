@@ -5,7 +5,7 @@ var Slack = require('slack-client');
 var acronym = require('./acronym.js');
 var time = require('./time.js');
 var stats = require('./stats.js');
-var secure = require('./secure.js);
+var secure = require('./secure.js');
 
 var slackToken = secure.slack.token;
 var autoReconnect = true;
